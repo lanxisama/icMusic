@@ -16,9 +16,8 @@ v-avatar    用户点击上传图片
             name:'5a655fs66689wwassd335'
             originationalName:'而立.mp3'
         }
-    服务器端应对上传的文件大小做处理    
 * 前端：根据新的Schema重新显示，重新设计UI
-*       topBar BUG 页面跳转未和topBar同步
+ 
 
 ~~音乐播放优化：当前页面只能有一个audio进行播放，当切换的时候，旧的pause()，新的play()~~
     

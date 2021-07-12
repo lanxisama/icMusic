@@ -13,11 +13,12 @@ require('./routes/fetchMatch')(app)
 // utils
 const clearFiles = require('./utils/clearFiles')
 app.listen(3000,()=>{
+    clearFiles()()
     //可以用worker单独开启一个线程进行判断
-    setInterval(()=>{
-        console.log("http://localhost:3000");
-        clearFiles()()
-    },1000*60*60*2)
+    // setInterval(()=>{
+    //     console.log("http://localhost:3000");
+    //     clearFiles()()
+    // },1000*60*60)
 })
 
  
